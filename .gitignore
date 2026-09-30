@@ -1,0 +1,45 @@
+.history/
+
+
+# Ignore Visual Studio files
+**/.vs/
+
+# Ignore build output directories
+**/bin/
+**/obj/
+**/node_modules/
+**/log/
+**/logs/
+**/wwwroot/upload/
+
+# Ignore video files
+**/*.mp4
+**/*.avi
+**/*.mkv
+
+# Ignore other common directories and files
+*.user
+*.suo
+*.github
+*.csproj.user
+*.dbmdl
+*.jfm
+_ReSharper.*
+**/packages/
+*.nuget
+**/.vscode
+
+**/*.ncconf
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+/Properties/launchSettings.json
+
+
+FastdoLab/.backend-dev.err.log
+.gitignore
+FastdoLab/.backend-dev.log
+FastdoLab/.frontend-dev.err.log
+FastdoLab/.frontend-dev.log
